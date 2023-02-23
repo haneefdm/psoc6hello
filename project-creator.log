@@ -1,0 +1,440 @@
+
+Summary: 
+
+BSP: CY8CKIT-062-WIFI-BT
+Template Application(s): Hello World
+Application(s) Root Path: /Users/hdm/test/psoc6
+
+Press "Create" to create the selected application(s).
+
+Collecting application data...
+
+Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
+/Applications/ModusToolbox/tools_3.0/project-creator/project-creator-cli --board-id CY8CKIT-062-WIFI-BT --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT --board-commit latest-v4.X --app-id mtb-example-hal-hello-world --app-uri https://github.com/Infineon/mtb-example-hal-hello-world --app-commit latest-v4.X --cypress-tools /Applications/ModusToolbox/tools_3.0 --target-dir /Users/hdm/test/psoc6 --user-app-name Hello_World_1 --use-modus-shell
+
+Starting application creation for '/Users/hdm/test/psoc6/Hello_World_1'.
+Acquiring the application source 'https://github.com/Infineon/mtb-example-hal-hello-world'.
+Acquired application source successfully.
+Loading the application.
+Loaded the application successfully.
+Processing project 'Hello_World_1'.
+Starting to commit changes to the filesystem and project 'mtb-example-hal-hello-world'.
+Writing mtb file for asset 'CY8CKIT-062-WIFI-BT' to the folder '/Users/hdm/test/psoc6/Hello_World_1/deps'.
+Writing mtb file for asset 'cat1cm0p' to the folder '/Users/hdm/test/psoc6/Hello_World_1/libs'.
+Writing mtb file for asset 'core-lib' to the folder '/Users/hdm/test/psoc6/Hello_World_1/libs'.
+Writing mtb file for asset 'core-make' to the folder '/Users/hdm/test/psoc6/Hello_World_1/libs'.
+Writing mtb file for asset 'mtb-hal-cat1' to the folder '/Users/hdm/test/psoc6/Hello_World_1/libs'.
+Writing mtb file for asset 'mtb-pdl-cat1' to the folder '/Users/hdm/test/psoc6/Hello_World_1/libs'.
+Writing mtb file for asset 'recipe-make-cat1a' to the folder '/Users/hdm/test/psoc6/Hello_World_1/libs'.
+Writing mtb file for asset 'udb-sdio-whd' to the folder '/Users/hdm/test/psoc6/Hello_World_1/libs'.
+Writing mtb file for asset 'cmsis' to the folder '/Users/hdm/test/psoc6/Hello_World_1/libs'.
+Writing mtb file for asset 'retarget-io' to the folder '/Users/hdm/test/psoc6/Hello_World_1/deps'.
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CKIT-062-WIFI-BT/TARGET_CY8CKIT-062-WIFI-BT config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_udb-sdio-whd/udb-sdio-whd config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CKIT-062-WIFI-BT/TARGET_CY8CKIT-062-WIFI-BT config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CKIT-062-WIFI-BT/TARGET_CY8CKIT-062-WIFI-BT fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_udb-sdio-whd/udb-sdio-whd config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_udb-sdio-whd/udb-sdio-whd fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis fetch --all --tags --force --quiet
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io release-v1.4.0
+Cloning into 'release-v1.4.0'...
+done.
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io release-v1.4.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io/release-v1.4.0 checkout release-v1.4.0
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1 clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 release-v3.2.0
+Note: switching to 'release-v1.4.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3072757 Upload retarget-io [123]
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io/release-v1.4.0 checkout release-v1.4.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io/release-v1.4.0 remote set-url cypress https://github.com/cypresssemiconductorco/retarget-io
+Cloning into 'release-v3.2.0'...
+done.
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io/release-v1.4.0 remote set-url cypress https://github.com/cypresssemiconductorco/retarget-io
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io/release-v1.4.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/retarget-io
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1 clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 release-v3.2.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1/release-v3.2.0 checkout release-v3.2.0
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io/release-v1.4.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/retarget-io
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io/release-v1.4.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p release-v1.0.0
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1 clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 release-v2.2.0
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-make clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make release-v3.0.2
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/retarget-io/release-v1.4.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CKIT-062-WIFI-BT/TARGET_CY8CKIT-062-WIFI-BT fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/Hello_World_1/libs clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CKIT-062-WIFI-BT/TARGET_CY8CKIT-062-WIFI-BT TARGET_CY8CKIT-062-WIFI-BT
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis release-v5.8.0
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_udb-sdio-whd/udb-sdio-whd fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_udb-sdio-whd/udb-sdio-whd release-v1.2.0
+Cloning into 'release-v1.0.0'...
+done.
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p release-v1.0.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p/release-v1.0.0 checkout release-v1.0.0
+Cloning into 'release-v3.0.2'...
+Cloning into 'release-v2.2.0'...
+done.
+Cloning into 'TARGET_CY8CKIT-062-WIFI-BT'...
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1 clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 release-v2.2.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1/release-v2.2.0 checkout release-v2.2.0
+Cloning into 'release-v5.8.0'...
+done.
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-make clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make release-v3.0.2
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-make/release-v3.0.2 checkout release-v3.0.2
+done.
+Cloning into 'release-v1.2.0'...
+done.
+done.
+Success: git -C /Users/hdm/test/psoc6/Hello_World_1/libs clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CKIT-062-WIFI-BT/TARGET_CY8CKIT-062-WIFI-BT TARGET_CY8CKIT-062-WIFI-BT
+Starting: git -C /Users/hdm/test/psoc6/Hello_World_1/libs/TARGET_CY8CKIT-062-WIFI-BT checkout release-v4.1.0
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis release-v5.8.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis/release-v5.8.0 checkout release-v5.8.0
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib release-v1.3.1
+Success: git -C /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a fetch --all --tags --force --quiet
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a release-v2.0.0
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_udb-sdio-whd/udb-sdio-whd release-v1.2.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd/release-v1.2.0 checkout release-v1.2.0
+Note: switching to 'release-v1.0.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at b3d4b82 Upload cat1cm0p 1.0.0.148
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p/release-v1.0.0 checkout release-v1.0.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p/release-v1.0.0 remote set-url cypress https://github.com/Infineon/cat1cm0p
+Note: switching to 'release-v3.0.2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 36592d7 Upload core-make 3.0.2.4113
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-make/release-v3.0.2 checkout release-v3.0.2
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-make/release-v3.0.2 remote set-url cypress https://github.com/cypresssemiconductorco/core-make
+Note: switching to 'release-v4.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 5acdcb7 Upload TARGET_CY8CKIT-062-WIFI-BT [347]
+Success: git -C /Users/hdm/test/psoc6/Hello_World_1/libs/TARGET_CY8CKIT-062-WIFI-BT checkout release-v4.1.0
+Starting: git -C /Users/hdm/test/psoc6/Hello_World_1/libs/TARGET_CY8CKIT-062-WIFI-BT remote set-url cypress https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT
+Cloning into 'release-v2.0.0'...
+Cloning into 'release-v1.3.1'...
+done.
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib release-v1.3.1
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib/release-v1.3.1 checkout release-v1.3.1
+done.
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p/release-v1.0.0 remote set-url cypress https://github.com/Infineon/cat1cm0p
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p/release-v1.0.0 remote set-url --push cypress https://github.com/Infineon/cat1cm0p
+Note: switching to 'release-v1.2.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7fd3d2c Upload udb-sdio-whd 1.2.0.29660
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd/release-v1.2.0 checkout release-v1.2.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd/release-v1.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/udb-sdio-whd
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a clone --origin cypress --no-checkout /Users/hdm/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a release-v2.0.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a/release-v2.0.0 checkout release-v2.0.0
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-make/release-v3.0.2 remote set-url cypress https://github.com/cypresssemiconductorco/core-make
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-make/release-v3.0.2 remote set-url --push cypress https://github.com/cypresssemiconductorco/core-make
+Success: git -C /Users/hdm/test/psoc6/Hello_World_1/libs/TARGET_CY8CKIT-062-WIFI-BT remote set-url cypress https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT
+Starting: git -C /Users/hdm/test/psoc6/Hello_World_1/libs/TARGET_CY8CKIT-062-WIFI-BT remote set-url --push cypress https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT
+Note: switching to 'release-v5.8.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at ce02f64 Upload cmsis 5.8.0.50
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis/release-v5.8.0 checkout release-v5.8.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis/release-v5.8.0 remote set-url cypress https://github.com/Infineon/cmsis
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p/release-v1.0.0 remote set-url --push cypress https://github.com/Infineon/cat1cm0p
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p/release-v1.0.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_Infineon_cat1cm0p/cat1cm0p
+Note: switching to 'release-v1.3.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 1c1cb8a Upload core-lib 1.3.1.29660
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib/release-v1.3.1 checkout release-v1.3.1
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib/release-v1.3.1 remote set-url cypress https://github.com/cypresssemiconductorco/core-lib
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd/release-v1.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/udb-sdio-whd
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd/release-v1.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/udb-sdio-whd
+Note: switching to 'release-v2.0.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 28d875a Upload recipe-make-cat1a 2.0.0.4056
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a/release-v2.0.0 checkout release-v2.0.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote set-url cypress https://github.com/cypresssemiconductorco/recipe-make-cat1a
+Success: git -C /Users/hdm/test/psoc6/Hello_World_1/libs/TARGET_CY8CKIT-062-WIFI-BT remote set-url --push cypress https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT
+Starting: git -C /Users/hdm/test/psoc6/Hello_World_1/libs/TARGET_CY8CKIT-062-WIFI-BT remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_TARGET_CY8CKIT-062-WIFI-BT/TARGET_CY8CKIT-062-WIFI-BT
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-make/release-v3.0.2 remote set-url --push cypress https://github.com/cypresssemiconductorco/core-make
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-make/release-v3.0.2 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_core-make/core-make
+Note: switching to 'release-v2.2.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at d672ead Upload mtb-hal-cat1 2.2.0.30598
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1/release-v2.2.0 checkout release-v2.2.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/mtb-hal-cat1
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis/release-v5.8.0 remote set-url cypress https://github.com/Infineon/cmsis
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis/release-v5.8.0 remote set-url --push cypress https://github.com/Infineon/cmsis
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cat1cm0p/release-v1.0.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_Infineon_cat1cm0p/cat1cm0p
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib/release-v1.3.1 remote set-url cypress https://github.com/cypresssemiconductorco/core-lib
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib/release-v1.3.1 remote set-url --push cypress https://github.com/cypresssemiconductorco/core-lib
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote set-url cypress https://github.com/cypresssemiconductorco/recipe-make-cat1a
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/recipe-make-cat1a
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd/release-v1.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/udb-sdio-whd
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd/release-v1.2.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_udb-sdio-whd/udb-sdio-whd
+Success: git -C /Users/hdm/test/psoc6/Hello_World_1/libs/TARGET_CY8CKIT-062-WIFI-BT remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_TARGET_CY8CKIT-062-WIFI-BT/TARGET_CY8CKIT-062-WIFI-BT
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-make/release-v3.0.2 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_core-make/core-make
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis/release-v5.8.0 remote set-url --push cypress https://github.com/Infineon/cmsis
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis/release-v5.8.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_Infineon_cmsis/cmsis
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib/release-v1.3.1 remote set-url --push cypress https://github.com/cypresssemiconductorco/core-lib
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib/release-v1.3.1 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_core-lib/core-lib
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/mtb-hal-cat1
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/mtb-hal-cat1
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/recipe-make-cat1a
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/udb-sdio-whd/release-v1.2.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_udb-sdio-whd/udb-sdio-whd
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/cmsis/release-v5.8.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_Infineon_cmsis/cmsis
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/core-lib/release-v1.3.1 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_core-lib/core-lib
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/mtb-hal-cat1
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1
+Note: switching to 'release-v3.2.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3bd35be Upload mtb-pdl-cat1 3.2.0.20064 [335]
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1/release-v3.2.0 checkout release-v3.2.0
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/mtb-pdl-cat1
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/mtb-pdl-cat1
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/mtb-pdl-cat1
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/mtb-pdl-cat1
+Starting: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1
+Success: git -C /Users/hdm/test/psoc6/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote add cypress-offline /Users/hdm/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1
+Requested to change the active target to 'APP_CY8CKIT-062-WIFI-BT'.
+Removed the file '/Users/hdm/test/psoc6/Hello_World_1/deps/TARGET_CY8CKIT-062-WIFI-BT.mtb'.
+Writing the file '/Users/hdm/test/psoc6/Hello_World_1/libs/app.mk'.
+Successfully committed changes to the project 'mtb-example-hal-hello-world'.
+Project "Hello_World_1" created successfully.
+Successfully created "Hello_World_1" application.
+==============================================================================
+= Export "Hello_World_1" application to Microsoft Visual Studio Code =
+==============================================================================
+make vscode CY_IDE_PRJNAME=Hello_World_1 CY_TOOLS_PATHS=/Applications/ModusToolbox/tools_3.0
+Tools Directory: /Applications/ModusToolbox/tools_3.0
+Searching installed tools in progress...
+Searching installed tools complete
+
+
+
+
+Prebuild operations complete
+
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+
+Tools Directory: /Applications/ModusToolbox/tools_3.0
+
+Initializing build: mtb-example-hal-hello-world Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
+
+Constructing build rules...
+Build rules construction complete
+
+Generated settings.json
+Generated tasks.json
+Generated extensions.json
+Generated c_cpp_properties.json
+Generated launch.json
+Generated openocd.tcl
+
+==============================================================================
+= Generating IDE files =
+==============================================================================
+
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Generated Hello_World_1.code-workspace
+
+
+J-Link users, please see the comments at the top of the launch.json
+file about setting the location of the gdb-server.
+
+Instructions:
+1. Review the modustoolbox.toolsPath property in .vscode/settings.json
+2. Open VSCode
+3. Install "C/C++" and "Cortex-Debug" extensions
+4. File->Open Workspace From File (Welcome page->Start->Open File)
+5. Select the .code-workspace file from app root directory and open
+6. Builds: Terminal->Run Task
+7. Debugging: "Bug icon" on the left-hand pane
+
+  
+The application "Hello_World_1" was successfully exported to Microsoft Visual Studio Code.
+0 error(s), 0 warning(s)
+
+Summary:
+
+Successfully created and exported "Hello_World_1" application.
