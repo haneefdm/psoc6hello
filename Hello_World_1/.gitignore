@@ -28,12 +28,12 @@ Release/
 *_build/
 
 # Visual Studio Code
-openocd.tcl
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# openocd.tcl
+# .vscode/
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
 
 # IAR Embedded Workbench files
 
