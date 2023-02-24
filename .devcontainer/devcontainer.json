@@ -23,7 +23,7 @@
 				"mcu-debug.debug-tracker-vscode",
 				"mcu-debug.memory-view",
 				"mcu-debug.rtos-views",
-				"Arm.keil-studio-pack"
+				"arm.keil-studio-pack-web"
 			]
 		}
 	},	
