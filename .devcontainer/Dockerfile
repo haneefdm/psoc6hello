@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt update -y && apt install -y curl libglib2.0-0 make libncurses5 libusb-1.0-0 libxcb-xinerama0 libgl1-mesa-glx wget && apt clean
+RUN apt update -y && apt install -y curl libglib2.0-0 make libncurses5 libusb-1.0-0 libxcb-xinerama0 libgl1-mesa-glx wget git && apt clean
 
 RUN cd /tmp \
  && wget -O modus.tar.gz https://github.com/haneefdm/psoc6hello/releases/download/v0.0.1/ModusToolbox_3.0.0.9369-linux-install.tar.gz \
