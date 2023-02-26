@@ -3,8 +3,11 @@
 		{
 			"path": "."
 		},
+		{
+			"path": "./Hello_World_1"
+		},
         {
-            "path": "../mtb_shared"
+            "path": "./mtb_shared"
         }
 	],
     "settings": {
